@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>My To-Do List</title>
+   
+</head>
+<script src="https://kit.fontawesome.com/bf0a581a6d.js" crossorigin="anonymous"></script>
+<body>
+    <div class="container">
+    <h1>My To-Do List <span><i class="fa-solid fa-clipboard-list" style="color: #0c112c;"></i></span></h1>
+    <form id="item-form">
+        <div class="form-control">
+          <input
+            type="text"
+            class="form-input"
+            id="item-input"
+            name="item"
+            placeholder="Enter Item"
+          />
+        </div>
+        <div class="form-control">
+          <button type="submit" class="btn">
+           Add Item
+          </button>
+        </div>
+      </form>
+      <ul id="item-list" class="items">
+        <li>
+          Finsin HW
+          <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+        <li>
+          Reply to emails
+          <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+        <li>
+          Buy food
+          <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+        <li>
+          Memorise your Quran
+          <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+      </ul>
+      <button id="clear" class="btn-clear">Clear All</button>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
