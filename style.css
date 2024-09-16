@@ -45,17 +45,6 @@ header h1 {
   outline: none;
 }
 
-.form-input-filter {
-  margin-top: 20px;
-  width: 100%;
-  font-size: 18px;
-  margin-bottom: 20px;
-  padding: 10px;
-  border: none;
-  border-bottom: 1px solid #ccc;
-  background: transparent;
-  outline: none;
-}
 
 /* Buttons */
 .btn {
